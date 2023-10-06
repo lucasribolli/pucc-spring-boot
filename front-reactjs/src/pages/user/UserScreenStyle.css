@@ -1,0 +1,96 @@
+.calculatorMain {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+.rowAtEnd {
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+    padding-bottom: 2ch;
+}
+
+.componentColumn {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding-top: 2ch;
+    padding-bottom: 2ch;
+}
+
+.inputRow {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    padding-top: 2ch;
+}
+
+.modalTitle {
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.modalColumn {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding-top: 1ch;
+    padding-bottom: 1ch;
+}
+
+.plateItemCol {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2ch;
+    padding-right: 2ch;
+}
+
+.labelPadding {
+   padding-bottom: 0.5ch;
+    font-weight: bold;
+}
+
+.plateButtonCol {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1ch;
+    padding-right: 1ch;
+}
+
+.selectInputWrapper {
+    padding-bottom: 10px;
+}
+
+.calculatorInputMargin {
+    padding-right: 1ch;
+    padding-left: 1ch;
+}
+
+.selectInputWrapper:last-child {
+    padding-bottom: 0;
+}
+
+.registerInputRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2ch;
+}
+
+.separator {
+    background-color: black;
+    width: 100%;
+    height: 0.10vh;
+    margin: 2vh 0;
+    opacity: 0.2;
+}
+
+.registerInput {
+    width: 223px;
+}
