@@ -21,13 +21,4 @@ WHERE schemaname != 'pg_catalog' AND
     schemaname != 'information_schema';
 ```
 
-## Email feature
-
-### Gmail
-Email: topicsmailer@gmail.com
-Password: #Topicspucc2023
-
-### SendGrid
-Email: topicsmailer@gmail.com
-Password: R&j+Yah+3q7\TYy/
 
